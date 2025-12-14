@@ -1,0 +1,42 @@
+
+.toc-outline {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.react-pdf__Outline {
+  list-style-type: none;
+  padding: 0;
+}
+
+.react-pdf__Outline__item {
+  list-style-type: none;
+  margin-bottom: 0.25rem;
+}
+
+.react-pdf__Outline__item > a {
+  display: block;
+  text-decoration: none;
+  color: #94a3b8; /* slate-400 */
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+  border-left: 2px solid transparent;
+  line-height: 1.4;
+}
+
+.react-pdf__Outline__item > a:hover {
+  background-color: rgba(51, 65, 85, 0.5); /* slate-800/50 */
+  color: #d8b4fe; /* termina-accent */
+  border-left-color: #d8b4fe;
+  padding-left: 1rem;
+}
+
+.react-pdf__Outline__item ul {
+  padding-left: 1rem;
+  list-style-type: none;
+  margin-top: 0.25rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  margin-left: 0.5rem;
+}
