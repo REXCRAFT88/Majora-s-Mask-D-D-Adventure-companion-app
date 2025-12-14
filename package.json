@@ -1,0 +1,62 @@
+{
+  "name": "termina-guide",
+  "author": "REXCRAFT88",
+  "description": "This app lets you track characters and quests for the D&D Majora's mask Campaign created by u/lemiel14n3. This app gives you the ability to see the whole timeline, currently open shops and available quests, and available items from the curiosity shop. It also some other cool features so check it out!",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "./",
+  "main": "electron.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "dev-electron": "concurrently -k \"npm run dev\" \"wait-on http://localhost:3000 && set NODE_ENV=development&& electron .\"",
+    "build-electron": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "@google/genai": "^1.33.0",
+    "electron-store": "^11.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^8.2.2",
+    "electron": "^39.2.7",
+    "electron-builder": "^24.13.3",
+    "typescript": "~5.8.2",
+    "vite": "^7.2.7",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.example.termina-guide",
+    "productName": "Majora's Mask D&D Adventure Companion",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron.cjs",
+      "preload.js",
+      "public/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icons/icon.png"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icons/icon.png"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "build/icons/icon.png"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}
