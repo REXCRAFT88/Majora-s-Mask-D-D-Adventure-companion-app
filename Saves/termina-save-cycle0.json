@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "timestamp": 1765698561897,
+  "state": {
+    "currentDay": 2,
+    "timeOfDayMinutes": 1078,
+    "totalMinutes": 2518,
+    "completedSteps": [
+      "mq1-1",
+      "mq1-2",
+      "q6-1",
+      "q6-2"
+    ],
+    "cycleDistance": 5.8,
+    "dayDistance": 5.8,
+    "dayXp": 540,
+    "dayCompletedSteps": [
+      "mq1-1",
+      "mq1-2",
+      "q6-1",
+      "q6-2"
+    ]
+  },
+  "history": {
+    "totalPlayTimeSeconds": 32,
+    "cyclesCompleted": 0,
+    "stepCompletionCounts": {},
+    "purchasedItems": [
+      "si-1",
+      "si-6b",
+      "si-6"
+    ],
+    "questLog": [
+      {
+        "questId": "mq1",
+        "cycle": 1,
+        "day": 2,
+        "timeString": "Day 2, 1pm",
+        "timestamp": 1860
+      }
+    ],
+    "totalDistanceTravelled": 5.8
+  },
+  "customContent": {
+    "characters": [],
+    "editedSchedules": {},
+    "quests": [],
+    "customShops": []
+  }
+}
