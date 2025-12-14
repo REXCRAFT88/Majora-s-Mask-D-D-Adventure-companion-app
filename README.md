@@ -25,7 +25,7 @@ This application was "developed" by REXCRAFT88 using Gemini 3.0
 Here are links to download u/lemiel14n3's the PDF guide and additional resources for your D&D adventure:
 
 * [Majora's Mask Adventure Book PDF](https://drive.google.com/file/d/1RyCiTw0_cumTKhZLfwx5_eKkFvYW0t15/view?usp=drive_link)
-* [D7D Adventure Resources](https://drive.google.com/file/d/1pWrCugu8SoAGAEqj8BC2hYp5AciyuUuA/view?usp=drive_link)
+* [D&D Adventure Resources](https://drive.google.com/file/d/1pWrCugu8SoAGAEqj8BC2hYp5AciyuUuA/view?usp=drive_link)
 
 
   ps. I have no correlation to u/lemiel14n3 this is a program I created to use for myself to run their is module. I'm sorry if the download links to their files at some point become unavailable. I am not a programmer, this entire thing was vibe coded, sorry if something breaks, let me know and I'll try and fix it.
