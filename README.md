@@ -1,6 +1,6 @@
 # Majora's Mask D\&D Adventure Companion
 
-The Majora's Mask D\&D Adventure Companion is a comprehensive desktop companion application designed to enhance your experience with The Legend of Zelda: Majora's Mask D\&D Adventure Modul created by u/lemiel14n3.
+The Majora's Mask D&D Adventure Companion is a comprehensive desktop companion application designed to enhance your experience with The Legend of Zelda: Majora's Mask D\&D Adventure Module created by u/lemiel14n3.
 
 ## Features
 
@@ -22,7 +22,7 @@ This application was "developed" by REXCRAFT88 using Gemini 3.0
 
 ## Resources
 
-Here are links to download u/lemiel14n3's the PDF guide and additional resources for your D7D adventure:
+Here are links to download u/lemiel14n3's the PDF guide and additional resources for your D&D adventure:
 
 * [Majora's Mask Adventure Book PDF](https://drive.google.com/file/d/1RyCiTw0_cumTKhZLfwx5_eKkFvYW0t15/view?usp=drive_link)
 * [D7D Adventure Resources](https://drive.google.com/file/d/1pWrCugu8SoAGAEqj8BC2hYp5AciyuUuA/view?usp=drive_link)
